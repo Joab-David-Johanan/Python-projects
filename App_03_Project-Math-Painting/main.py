@@ -46,7 +46,7 @@ while True:
 
             rec_obj = Rectangle(start_x_rec, start_y_rec, rec_width, rec_height,
                                 (rec_color_r, rec_color_g, rec_color_b))
-            rec_obj.draw(canvas_path=r"C:\Python_Projects\App-3-Project-Math-Painting\canvas.png")
+            rec_obj.draw(canvas_path=r"C:\Python_Projects\App_3_Project-Math-Painting\canvas.png")
 
         case "square":
             # square creation
@@ -59,7 +59,7 @@ while True:
 
             square_obj = Square(start_x_square, start_y_square, square_side,
                                 (square_color_r, square_color_g, square_color_b))
-            square_obj.draw(canvas_path=r"C:\Python_Projects\App-3-Project-Math-Painting\canvas.png")
+            square_obj.draw(canvas_path=r"C:\Python_Projects\App_3_Project-Math-Painting\canvas.png")
 
         case "quit":
             print("Exiting application...")
